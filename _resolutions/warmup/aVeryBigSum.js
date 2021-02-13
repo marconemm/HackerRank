@@ -1,0 +1,1 @@
+const aVeryBigSum = arr => arr.reduce((acc, number) => acc += BigInt(number), 0n);
